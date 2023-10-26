@@ -94,18 +94,23 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
     HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
-    int pulse = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    pulse++;
-    if (pulse == 255) { pulse = 0; }
 
-    TIM2->CCR1 = pulse;
-      HAL_Delay(10);
+      for (int pulse = 0;pulse < 255; pulse++) {
+          TIM2->CCR1 = pulse;
+          HAL_Delay(10);
+      }
+
+      for (int pulse = 255;pulse > 0; pulse--) {
+          TIM2->CCR1 = pulse;
+          HAL_Delay(10);
+      }
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

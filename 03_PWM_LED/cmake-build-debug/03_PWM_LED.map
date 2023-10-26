@@ -1214,7 +1214,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08000000                g_pfnVectors
                 0x08000188                . = ALIGN (0x4)
 
-.text           0x08000188     0x2cd0
+.text           0x08000188     0x2ce4
                 0x08000188                . = ALIGN (0x4)
  *(.text)
  .text          0x08000188       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
@@ -1239,382 +1239,382 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x0800064c       0x7a CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
                 0x0800064c                SystemClock_Config
  *fill*         0x080006c6        0x2 
- .text.main     0x080006c8       0x3c CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
+ .text.main     0x080006c8       0x50 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
                 0x080006c8                main
  .text.HAL_MspInit
-                0x08000704       0x30 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x08000704                HAL_MspInit
+                0x08000718       0x30 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08000718                HAL_MspInit
  .text.HAL_TIM_Base_MspInit
-                0x08000734       0x26 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x08000734                HAL_TIM_Base_MspInit
+                0x08000748       0x26 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08000748                HAL_TIM_Base_MspInit
  .text.HAL_TIM_MspPostInit
-                0x0800075a       0x4a CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x0800075a                HAL_TIM_MspPostInit
+                0x0800076e       0x4a CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x0800076e                HAL_TIM_MspPostInit
  .text.HAL_UART_MspInit
-                0x080007a4       0x88 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x080007a4                HAL_UART_MspInit
+                0x080007b8       0x88 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x080007b8                HAL_UART_MspInit
  .text.NMI_Handler
-                0x0800082c        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800082c                NMI_Handler
+                0x08000840        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000840                NMI_Handler
  .text.HardFault_Handler
-                0x0800082e        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800082e                HardFault_Handler
+                0x08000842        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000842                HardFault_Handler
  .text.MemManage_Handler
-                0x08000830        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000830                MemManage_Handler
+                0x08000844        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000844                MemManage_Handler
  .text.BusFault_Handler
-                0x08000832        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000832                BusFault_Handler
+                0x08000846        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000846                BusFault_Handler
  .text.UsageFault_Handler
-                0x08000834        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000834                UsageFault_Handler
+                0x08000848        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000848                UsageFault_Handler
  .text.SVC_Handler
-                0x08000836        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000836                SVC_Handler
+                0x0800084a        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800084a                SVC_Handler
  .text.DebugMon_Handler
-                0x08000838        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08000838                DebugMon_Handler
+                0x0800084c        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800084c                DebugMon_Handler
  .text.PendSV_Handler
-                0x0800083a        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800083a                PendSV_Handler
+                0x0800084e        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800084e                PendSV_Handler
  .text.SysTick_Handler
-                0x0800083c        0x8 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
-                0x0800083c                SysTick_Handler
+                0x08000850        0x8 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08000850                SysTick_Handler
  .text.SystemInit
-                0x08000844        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08000844                SystemInit
- *fill*         0x08000846        0x2 
+                0x08000858        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08000858                SystemInit
+ *fill*         0x0800085a        0x2 
  .text.Reset_Handler
-                0x08000848       0x50 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
-                0x08000848                Reset_Handler
+                0x0800085c       0x50 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x0800085c                Reset_Handler
  .text.Default_Handler
-                0x08000898        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
-                0x08000898                RTC_Alarm_IRQHandler
-                0x08000898                EXTI2_IRQHandler
-                0x08000898                TIM8_TRG_COM_IRQHandler
-                0x08000898                TIM8_CC_IRQHandler
-                0x08000898                TIM1_CC_IRQHandler
-                0x08000898                TSC_IRQHandler
-                0x08000898                TAMP_STAMP_IRQHandler
-                0x08000898                EXTI3_IRQHandler
-                0x08000898                LPTIM2_IRQHandler
-                0x08000898                DFSDM1_FLT1_IRQHandler
-                0x08000898                I2C3_ER_IRQHandler
-                0x08000898                DFSDM1_FLT2_IRQHandler
-                0x08000898                EXTI0_IRQHandler
-                0x08000898                I2C2_EV_IRQHandler
-                0x08000898                CAN1_RX0_IRQHandler
-                0x08000898                FPU_IRQHandler
-                0x08000898                TIM1_UP_TIM16_IRQHandler
-                0x08000898                ADC1_2_IRQHandler
-                0x08000898                SPI1_IRQHandler
-                0x08000898                TIM6_DAC_IRQHandler
-                0x08000898                TIM8_UP_IRQHandler
-                0x08000898                DMA2_Channel2_IRQHandler
-                0x08000898                DMA1_Channel4_IRQHandler
-                0x08000898                SAI2_IRQHandler
-                0x08000898                DFSDM1_FLT3_IRQHandler
-                0x08000898                USART3_IRQHandler
-                0x08000898                DMA1_Channel7_IRQHandler
-                0x08000898                CAN1_RX1_IRQHandler
-                0x08000898                LCD_IRQHandler
-                0x08000898                UART5_IRQHandler
-                0x08000898                ADC3_IRQHandler
-                0x08000898                TIM4_IRQHandler
-                0x08000898                DMA2_Channel1_IRQHandler
-                0x08000898                QUADSPI_IRQHandler
-                0x08000898                I2C1_EV_IRQHandler
-                0x08000898                DMA1_Channel6_IRQHandler
-                0x08000898                UART4_IRQHandler
-                0x08000898                DMA2_Channel4_IRQHandler
-                0x08000898                TIM3_IRQHandler
-                0x08000898                RCC_IRQHandler
-                0x08000898                DMA1_Channel1_IRQHandler
-                0x08000898                Default_Handler
-                0x08000898                DMA2_Channel7_IRQHandler
-                0x08000898                EXTI15_10_IRQHandler
-                0x08000898                TIM7_IRQHandler
-                0x08000898                SDMMC1_IRQHandler
-                0x08000898                TIM5_IRQHandler
-                0x08000898                I2C3_EV_IRQHandler
-                0x08000898                EXTI9_5_IRQHandler
-                0x08000898                RTC_WKUP_IRQHandler
-                0x08000898                PVD_PVM_IRQHandler
-                0x08000898                SPI2_IRQHandler
-                0x08000898                CAN1_TX_IRQHandler
-                0x08000898                DMA2_Channel5_IRQHandler
-                0x08000898                DMA1_Channel5_IRQHandler
-                0x08000898                EXTI4_IRQHandler
-                0x08000898                RNG_IRQHandler
-                0x08000898                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08000898                DMA1_Channel3_IRQHandler
-                0x08000898                COMP_IRQHandler
-                0x08000898                WWDG_IRQHandler
-                0x08000898                LPUART1_IRQHandler
-                0x08000898                DMA2_Channel6_IRQHandler
-                0x08000898                TIM2_IRQHandler
-                0x08000898                EXTI1_IRQHandler
-                0x08000898                USART2_IRQHandler
-                0x08000898                DFSDM1_FLT0_IRQHandler
-                0x08000898                I2C2_ER_IRQHandler
-                0x08000898                DMA1_Channel2_IRQHandler
-                0x08000898                TIM8_BRK_IRQHandler
-                0x08000898                CAN1_SCE_IRQHandler
-                0x08000898                FLASH_IRQHandler
-                0x08000898                USART1_IRQHandler
-                0x08000898                OTG_FS_IRQHandler
-                0x08000898                SPI3_IRQHandler
-                0x08000898                I2C1_ER_IRQHandler
-                0x08000898                FMC_IRQHandler
-                0x08000898                SWPMI1_IRQHandler
-                0x08000898                LPTIM1_IRQHandler
-                0x08000898                SAI1_IRQHandler
-                0x08000898                DMA2_Channel3_IRQHandler
-                0x08000898                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x0800089a        0x2 
+                0x080008ac        0x2 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+                0x080008ac                RTC_Alarm_IRQHandler
+                0x080008ac                EXTI2_IRQHandler
+                0x080008ac                TIM8_TRG_COM_IRQHandler
+                0x080008ac                TIM8_CC_IRQHandler
+                0x080008ac                TIM1_CC_IRQHandler
+                0x080008ac                TSC_IRQHandler
+                0x080008ac                TAMP_STAMP_IRQHandler
+                0x080008ac                EXTI3_IRQHandler
+                0x080008ac                LPTIM2_IRQHandler
+                0x080008ac                DFSDM1_FLT1_IRQHandler
+                0x080008ac                I2C3_ER_IRQHandler
+                0x080008ac                DFSDM1_FLT2_IRQHandler
+                0x080008ac                EXTI0_IRQHandler
+                0x080008ac                I2C2_EV_IRQHandler
+                0x080008ac                CAN1_RX0_IRQHandler
+                0x080008ac                FPU_IRQHandler
+                0x080008ac                TIM1_UP_TIM16_IRQHandler
+                0x080008ac                ADC1_2_IRQHandler
+                0x080008ac                SPI1_IRQHandler
+                0x080008ac                TIM6_DAC_IRQHandler
+                0x080008ac                TIM8_UP_IRQHandler
+                0x080008ac                DMA2_Channel2_IRQHandler
+                0x080008ac                DMA1_Channel4_IRQHandler
+                0x080008ac                SAI2_IRQHandler
+                0x080008ac                DFSDM1_FLT3_IRQHandler
+                0x080008ac                USART3_IRQHandler
+                0x080008ac                DMA1_Channel7_IRQHandler
+                0x080008ac                CAN1_RX1_IRQHandler
+                0x080008ac                LCD_IRQHandler
+                0x080008ac                UART5_IRQHandler
+                0x080008ac                ADC3_IRQHandler
+                0x080008ac                TIM4_IRQHandler
+                0x080008ac                DMA2_Channel1_IRQHandler
+                0x080008ac                QUADSPI_IRQHandler
+                0x080008ac                I2C1_EV_IRQHandler
+                0x080008ac                DMA1_Channel6_IRQHandler
+                0x080008ac                UART4_IRQHandler
+                0x080008ac                DMA2_Channel4_IRQHandler
+                0x080008ac                TIM3_IRQHandler
+                0x080008ac                RCC_IRQHandler
+                0x080008ac                DMA1_Channel1_IRQHandler
+                0x080008ac                Default_Handler
+                0x080008ac                DMA2_Channel7_IRQHandler
+                0x080008ac                EXTI15_10_IRQHandler
+                0x080008ac                TIM7_IRQHandler
+                0x080008ac                SDMMC1_IRQHandler
+                0x080008ac                TIM5_IRQHandler
+                0x080008ac                I2C3_EV_IRQHandler
+                0x080008ac                EXTI9_5_IRQHandler
+                0x080008ac                RTC_WKUP_IRQHandler
+                0x080008ac                PVD_PVM_IRQHandler
+                0x080008ac                SPI2_IRQHandler
+                0x080008ac                CAN1_TX_IRQHandler
+                0x080008ac                DMA2_Channel5_IRQHandler
+                0x080008ac                DMA1_Channel5_IRQHandler
+                0x080008ac                EXTI4_IRQHandler
+                0x080008ac                RNG_IRQHandler
+                0x080008ac                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080008ac                DMA1_Channel3_IRQHandler
+                0x080008ac                COMP_IRQHandler
+                0x080008ac                WWDG_IRQHandler
+                0x080008ac                LPUART1_IRQHandler
+                0x080008ac                DMA2_Channel6_IRQHandler
+                0x080008ac                TIM2_IRQHandler
+                0x080008ac                EXTI1_IRQHandler
+                0x080008ac                USART2_IRQHandler
+                0x080008ac                DFSDM1_FLT0_IRQHandler
+                0x080008ac                I2C2_ER_IRQHandler
+                0x080008ac                DMA1_Channel2_IRQHandler
+                0x080008ac                TIM8_BRK_IRQHandler
+                0x080008ac                CAN1_SCE_IRQHandler
+                0x080008ac                FLASH_IRQHandler
+                0x080008ac                USART1_IRQHandler
+                0x080008ac                OTG_FS_IRQHandler
+                0x080008ac                SPI3_IRQHandler
+                0x080008ac                I2C1_ER_IRQHandler
+                0x080008ac                FMC_IRQHandler
+                0x080008ac                SWPMI1_IRQHandler
+                0x080008ac                LPTIM1_IRQHandler
+                0x080008ac                SAI1_IRQHandler
+                0x080008ac                DMA2_Channel3_IRQHandler
+                0x080008ac                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x080008ae        0x2 
  .text.HAL_InitTick
-                0x0800089c       0x50 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x0800089c                HAL_InitTick
+                0x080008b0       0x50 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080008b0                HAL_InitTick
  .text.HAL_Init
-                0x080008ec       0x2c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x080008ec                HAL_Init
+                0x08000900       0x2c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000900                HAL_Init
  .text.HAL_IncTick
-                0x08000918       0x18 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000918                HAL_IncTick
+                0x0800092c       0x18 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x0800092c                HAL_IncTick
  .text.HAL_GetTick
-                0x08000930        0xc CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08000930                HAL_GetTick
+                0x08000944        0xc CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000944                HAL_GetTick
  .text.HAL_Delay
-                0x0800093c       0x28 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x0800093c                HAL_Delay
+                0x08000950       0x28 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08000950                HAL_Delay
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000964       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08000964                HAL_NVIC_SetPriorityGrouping
+                0x08000978       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08000978                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x08000988       0x70 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08000988                HAL_NVIC_SetPriority
+                0x0800099c       0x70 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x0800099c                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x080009f8       0x28 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080009f8                HAL_SYSTICK_Config
+                0x08000a0c       0x28 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08000a0c                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x08000a20      0x20c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000a20                HAL_GPIO_Init
+                0x08000a34      0x20c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08000a34                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08000c2c        0xa CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x08000c2c                HAL_GPIO_WritePin
- *fill*         0x08000c36        0x2 
+                0x08000c40        0xa CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08000c40                HAL_GPIO_WritePin
+ *fill*         0x08000c4a        0x2 
  .text.HAL_PWREx_GetVoltageRange
-                0x08000c38       0x10 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08000c38                HAL_PWREx_GetVoltageRange
+                0x08000c4c       0x10 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08000c4c                HAL_PWREx_GetVoltageRange
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08000c48       0x90 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08000c48                HAL_PWREx_ControlVoltageScaling
+                0x08000c5c       0x90 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08000c5c                HAL_PWREx_ControlVoltageScaling
  .text.RCC_SetFlashLatencyFromMSIRange
-                0x08000cd8       0x90 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000cec       0x90 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .text.HAL_RCC_GetSysClockFreq
-                0x08000d68       0xb4 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000d68                HAL_RCC_GetSysClockFreq
+                0x08000d7c       0xb4 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000d7c                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_OscConfig
-                0x08000e1c      0x61c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08000e1c                HAL_RCC_OscConfig
+                0x08000e30      0x61c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08000e30                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08001438      0x188 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08001438                HAL_RCC_ClockConfig
+                0x0800144c      0x188 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x0800144c                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x080015c0        0xc CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x080015c0                HAL_RCC_GetHCLKFreq
+                0x080015d4        0xc CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x080015d4                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x080015cc       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x080015cc                HAL_RCC_GetPCLK1Freq
+                0x080015e0       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x080015e0                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x080015f0       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x080015f0                HAL_RCC_GetPCLK2Freq
+                0x08001604       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08001604                HAL_RCC_GetPCLK2Freq
  .text.RCCEx_PLLSAI1_Config
-                0x08001614      0x170 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x08001628      0x170 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.RCCEx_PLLSAI2_Config
-                0x08001784      0x14c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x08001798      0x14c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x080018d0      0x454 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
-                0x080018d0                HAL_RCCEx_PeriphCLKConfig
+                0x080018e4      0x454 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x080018e4                HAL_RCCEx_PeriphCLKConfig
  .text.TIM_OC1_SetConfig
-                0x08001d24       0xa0 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001d38       0xa0 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_OC3_SetConfig
-                0x08001dc4       0x8c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001dd8       0x8c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_OC4_SetConfig
-                0x08001e50       0x6c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001e64       0x6c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_OC5_SetConfig
-                0x08001ebc       0x68 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001ed0       0x68 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_OC6_SetConfig
-                0x08001f24       0x6c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001f38       0x6c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_TI1_ConfigInputStage
-                0x08001f90       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001fa4       0x24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_TI2_ConfigInputStage
-                0x08001fb4       0x26 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001fc8       0x26 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.TIM_ITRx_SetConfig
-                0x08001fda       0x10 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001fee       0x10 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
  .text.HAL_TIM_PWM_MspInit
-                0x08001fea        0x2 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08001fea                HAL_TIM_PWM_MspInit
+                0x08001ffe        0x2 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08001ffe                HAL_TIM_PWM_MspInit
  .text.TIM_Base_SetConfig
-                0x08001fec       0xc8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08001fec                TIM_Base_SetConfig
+                0x08002000       0xc8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002000                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x080020b4       0x60 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x080020b4                HAL_TIM_Base_Init
+                0x080020c8       0x60 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x080020c8                HAL_TIM_Base_Init
  .text.HAL_TIM_PWM_Init
-                0x08002114       0x60 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08002114                HAL_TIM_PWM_Init
+                0x08002128       0x60 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002128                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x08002174       0x8c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08002174                TIM_OC2_SetConfig
+                0x08002188       0x8c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002188                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x08002200      0x13a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08002200                HAL_TIM_PWM_ConfigChannel
+                0x08002214      0x13a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002214                HAL_TIM_PWM_ConfigChannel
  .text.TIM_ETR_SetConfig
-                0x0800233a       0x18 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x0800233a                TIM_ETR_SetConfig
- *fill*         0x08002352        0x2 
+                0x0800234e       0x18 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x0800234e                TIM_ETR_SetConfig
+ *fill*         0x08002366        0x2 
  .text.HAL_TIM_ConfigClockSource
-                0x08002354      0x100 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08002354                HAL_TIM_ConfigClockSource
+                0x08002368      0x100 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002368                HAL_TIM_ConfigClockSource
  .text.TIM_CCxChannelCmd
-                0x08002454       0x1e CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08002454                TIM_CCxChannelCmd
- *fill*         0x08002472        0x2 
+                0x08002468       0x1e CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002468                TIM_CCxChannelCmd
+ *fill*         0x08002486        0x2 
  .text.HAL_TIM_PWM_Start
-                0x08002474      0x160 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
-                0x08002474                HAL_TIM_PWM_Start
+                0x08002488      0x160 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+                0x08002488                HAL_TIM_PWM_Start
  .text.HAL_TIMEx_MasterConfigSynchronization
-                0x080025d4       0x98 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
-                0x080025d4                HAL_TIMEx_MasterConfigSynchronization
+                0x080025e8       0x98 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+                0x080025e8                HAL_TIMEx_MasterConfigSynchronization
  .text.UART_EndRxTransfer
-                0x0800266c       0x52 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- *fill*         0x080026be        0x2 
+                0x08002680       0x52 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ *fill*         0x080026d2        0x2 
  .text.UART_SetConfig
-                0x080026c0      0x328 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x080026c0                UART_SetConfig
+                0x080026d4      0x328 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x080026d4                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x080029e8       0xca CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x080029e8                UART_AdvFeatureConfig
+                0x080029fc       0xca CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x080029fc                UART_AdvFeatureConfig
  .text.UART_WaitOnFlagUntilTimeout
-                0x08002ab2       0x9a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08002ab2                UART_WaitOnFlagUntilTimeout
+                0x08002ac6       0x9a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08002ac6                UART_WaitOnFlagUntilTimeout
  .text.UART_CheckIdleState
-                0x08002b4c       0xc6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08002b4c                UART_CheckIdleState
+                0x08002b60       0xc6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08002b60                UART_CheckIdleState
  .text.HAL_UART_Init
-                0x08002c12       0x62 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08002c12                HAL_UART_Init
+                0x08002c26       0x62 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08002c26                HAL_UART_Init
  .text.__libc_init_array
-                0x08002c74       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
-                0x08002c74                __libc_init_array
- .text.memset   0x08002cbc       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
-                0x08002cbc                memset
+                0x08002c88       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-init.o)
+                0x08002c88                __libc_init_array
+ .text.memset   0x08002cd0       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-memset.o)
+                0x08002cd0                memset
  .text.startup.register_fini
-                0x08002d60       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08002d74        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
-                0x08002d74                atexit
+                0x08002d74       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08002d88        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-atexit.o)
+                0x08002d88                atexit
  .text.__libc_fini_array
-                0x08002d80       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
-                0x08002d80                __libc_fini_array
+                0x08002d94       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-fini.o)
+                0x08002d94                __libc_fini_array
  .text.__retarget_lock_acquire_recursive
-                0x08002dac        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002dac                __retarget_lock_acquire_recursive
+                0x08002dc0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08002dc0                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x08002db0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
-                0x08002db0                __retarget_lock_release_recursive
+                0x08002dc4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-lock.o)
+                0x08002dc4                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x08002db4       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08002db4                __register_exitproc
+                0x08002dc8       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__atexit.o)
+                0x08002dc8                __register_exitproc
  *(.glue_7)
- .glue_7        0x08002e40        0x0 linker stubs
+ .glue_7        0x08002e54        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08002e40        0x0 linker stubs
+ .glue_7t       0x08002e54        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08002e40        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+ .eh_frame      0x08002e54        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
  *(.init)
- .init          0x08002e40        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08002e40                _init
- .init          0x08002e44        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+ .init          0x08002e54        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x08002e54                _init
+ .init          0x08002e58        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
  *(.fini)
- .fini          0x08002e4c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
-                0x08002e4c                _fini
- .fini          0x08002e50        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
-                0x08002e58                . = ALIGN (0x4)
-                0x08002e58                _etext = .
+ .fini          0x08002e60        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crti.o
+                0x08002e60                _fini
+ .fini          0x08002e64        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtn.o
+                0x08002e6c                . = ALIGN (0x4)
+                0x08002e6c                _etext = .
 
-.vfp11_veneer   0x08002e58        0x0
- .vfp11_veneer  0x08002e58        0x0 linker stubs
+.vfp11_veneer   0x08002e6c        0x0
+ .vfp11_veneer  0x08002e6c        0x0 linker stubs
 
-.v4_bx          0x08002e58        0x0
- .v4_bx         0x08002e58        0x0 linker stubs
+.v4_bx          0x08002e6c        0x0
+ .v4_bx         0x08002e6c        0x0 linker stubs
 
-.iplt           0x08002e58        0x0
- .iplt          0x08002e58        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.iplt           0x08002e6c        0x0
+ .iplt          0x08002e6c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.rodata         0x08002e58       0x4c
-                0x08002e58                . = ALIGN (0x4)
+.rodata         0x08002e6c       0x4c
+                0x08002e6c                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.AHBPrescTable
-                0x08002e58       0x10 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08002e58                AHBPrescTable
+                0x08002e6c       0x10 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08002e6c                AHBPrescTable
  .rodata.APBPrescTable
-                0x08002e68        0x8 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08002e68                APBPrescTable
+                0x08002e7c        0x8 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08002e7c                APBPrescTable
  .rodata.MSIRangeTable
-                0x08002e70       0x30 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08002e70                MSIRangeTable
+                0x08002e84       0x30 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08002e84                MSIRangeTable
  .rodata._global_impure_ptr
-                0x08002ea0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
-                0x08002ea0                _global_impure_ptr
-                0x08002ea4                . = ALIGN (0x4)
+                0x08002eb4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-impure.o)
+                0x08002eb4                _global_impure_ptr
+                0x08002eb8                . = ALIGN (0x4)
 
-.ARM.extab      0x08002ea4        0x0
-                0x08002ea4                . = ALIGN (0x4)
+.ARM.extab      0x08002eb8        0x0
+                0x08002eb8                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x08002ea4                . = ALIGN (0x4)
+                0x08002eb8                . = ALIGN (0x4)
 
-.ARM            0x08002ea4        0x8
-                0x08002ea4                . = ALIGN (0x4)
-                0x08002ea4                __exidx_start = .
+.ARM            0x08002eb8        0x8
+                0x08002eb8                . = ALIGN (0x4)
+                0x08002eb8                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x08002ea4        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
-                0x08002eac                __exidx_end = .
-                0x08002eac                . = ALIGN (0x4)
+ .ARM.exidx     0x08002eb8        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x08002ec0                __exidx_end = .
+                0x08002ec0                . = ALIGN (0x4)
 
-.rel.dyn        0x08002eac        0x0
- .rel.iplt      0x08002eac        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+.rel.dyn        0x08002ec0        0x0
+ .rel.iplt      0x08002ec0        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
 
-.preinit_array  0x08002eac        0x0
-                0x08002eac                . = ALIGN (0x4)
-                0x08002eac                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08002ec0        0x0
+                0x08002ec0                . = ALIGN (0x4)
+                0x08002ec0                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002eac                PROVIDE (__preinit_array_end = .)
-                0x08002eac                . = ALIGN (0x4)
+                0x08002ec0                PROVIDE (__preinit_array_end = .)
+                0x08002ec0                . = ALIGN (0x4)
 
-.init_array     0x08002eac        0x8
-                0x08002eac                . = ALIGN (0x4)
-                0x08002eac                PROVIDE (__init_array_start = .)
+.init_array     0x08002ec0        0x8
+                0x08002ec0                . = ALIGN (0x4)
+                0x08002ec0                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08002eac        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x08002ec0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08002eb0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08002eb4                PROVIDE (__init_array_end = .)
-                0x08002eb4                . = ALIGN (0x4)
+ .init_array    0x08002ec4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08002ec8                PROVIDE (__init_array_end = .)
+                0x08002ec8                . = ALIGN (0x4)
 
-.fini_array     0x08002eb4        0x4
-                0x08002eb4                . = ALIGN (0x4)
-                0x08002eb4                PROVIDE (__fini_array_start = .)
+.fini_array     0x08002ec8        0x4
+                0x08002ec8                . = ALIGN (0x4)
+                0x08002ec8                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08002eb4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
-                0x08002eb8                PROVIDE (__fini_array_end = .)
-                0x08002eb8                . = ALIGN (0x4)
-                0x08002eb8                _sidata = LOADADDR (.data)
+ .fini_array    0x08002ec8        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
+                0x08002ecc                PROVIDE (__fini_array_end = .)
+                0x08002ecc                . = ALIGN (0x4)
+                0x08002ecc                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x43c load address 0x08002eb8
+.data           0x20000000      0x43c load address 0x08002ecc
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1640,11 +1640,11 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x2000043c                . = ALIGN (0x4)
                 0x2000043c                _edata = .
 
-.igot.plt       0x2000043c        0x0 load address 0x080032f4
+.igot.plt       0x2000043c        0x0 load address 0x08003308
  .igot.plt      0x2000043c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp/crtbegin.o
                 0x2000043c                . = ALIGN (0x4)
 
-.bss            0x2000043c       0xf8 load address 0x080032f4
+.bss            0x2000043c       0xf8 load address 0x08003308
                 0x2000043c                _sbss = .
                 0x2000043c                __bss_start__ = _sbss
  *(.bss)
@@ -1666,7 +1666,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x20000534                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000534      0x604 load address 0x080032f4
+                0x20000534      0x604 load address 0x08003308
                 0x20000538                . = ALIGN (0x8)
  *fill*         0x20000534        0x4 
                 [!provide]                PROVIDE (end = .)
@@ -1747,51 +1747,51 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/nofp\libm.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m/nofp\libgcc.a
 
-.debug_info     0x00000000    0x12d95
- .debug_info    0x00000000     0x14ce CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
- .debug_info    0x000014ce     0x124c CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x0000271a      0x130 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x0000284a      0x425 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_info    0x00002c6f       0x22 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_info    0x00002c91      0xce8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_info    0x00003979     0x109e CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x00004a17      0x857 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_info    0x0000526e      0xaa2 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_info    0x00005d10      0xf3f CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_info    0x00006c4f     0x125c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_info    0x00007eab     0x3f24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
- .debug_info    0x0000bdcf     0x1d2b CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
- .debug_info    0x0000dafa     0x529b CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.debug_info     0x00000000    0x12dcc
+ .debug_info    0x00000000     0x1505 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00001505     0x124c CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x00002751      0x130 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x00002881      0x425 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_info    0x00002ca6       0x22 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_info    0x00002cc8      0xce8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_info    0x000039b0     0x109e CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_info    0x00004a4e      0x857 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_info    0x000052a5      0xaa2 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_info    0x00005d47      0xf3f CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_info    0x00006c86     0x125c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_info    0x00007ee2     0x3f24 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+ .debug_info    0x0000be06     0x1d2b CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+ .debug_info    0x0000db31     0x529b CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
-.debug_abbrev   0x00000000     0x1bdc
- .debug_abbrev  0x00000000      0x295 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000295      0x1f6 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_abbrev  0x0000048b       0x7e CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_abbrev  0x00000509      0x119 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_abbrev  0x00000622       0x12 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_abbrev  0x00000634      0x22a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_abbrev  0x0000085e      0x36a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_abbrev  0x00000bc8      0x1e6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_abbrev  0x00000dae      0x215 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x00000fc3      0x251 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_abbrev  0x00001214      0x275 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x00001489      0x232 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
- .debug_abbrev  0x000016bb      0x248 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00001903      0x2d9 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.debug_abbrev   0x00000000     0x1be5
+ .debug_abbrev  0x00000000      0x29e CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x0000029e      0x1f6 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_abbrev  0x00000494       0x7e CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_abbrev  0x00000512      0x119 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_abbrev  0x0000062b       0x12 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_abbrev  0x0000063d      0x22a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_abbrev  0x00000867      0x36a CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000bd1      0x1e6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000db7      0x215 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00000fcc      0x251 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_abbrev  0x0000121d      0x275 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x00001492      0x232 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+ .debug_abbrev  0x000016c4      0x248 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x0000190c      0x2d9 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
-.debug_loc      0x00000000    0x102e3
- .debug_loc     0x00000000       0x23 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
- .debug_loc     0x00000023       0xa6 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_loc     0x000000c9      0x127 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_loc     0x000001f0      0x1ef CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_loc     0x000003df      0x744 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_loc     0x00000b23      0x3da CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_loc     0x00000efd      0xb06 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_loc     0x00001a03      0x81c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_loc     0x0000221f     0x1af9 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_loc     0x00003d18     0x55d7 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
- .debug_loc     0x000092ef     0x241c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
- .debug_loc     0x0000b70b     0x4bd8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.debug_loc      0x00000000    0x102f8
+ .debug_loc     0x00000000       0x38 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x00000038       0xa6 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_loc     0x000000de      0x127 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_loc     0x00000205      0x1ef CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_loc     0x000003f4      0x744 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_loc     0x00000b38      0x3da CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_loc     0x00000f12      0xb06 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_loc     0x00001a18      0x81c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_loc     0x00002234     0x1af9 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_loc     0x00003d2d     0x55d7 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+ .debug_loc     0x00009304     0x241c CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+ .debug_loc     0x0000b720     0x4bd8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
 .debug_aranges  0x00000000      0xda8
  .debug_aranges
@@ -1823,37 +1823,37 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_aranges
                 0x00000b80      0x228 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
-.debug_ranges   0x00000000      0xd78
- .debug_ranges  0x00000000       0x38 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x00000038       0x38 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_ranges  0x00000070       0x50 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_ranges  0x000000c0       0x18 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_ranges  0x000000d8       0x20 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_ranges  0x000000f8      0x120 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_ranges  0x00000218       0xf8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_ranges  0x00000310       0x48 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_ranges  0x00000358      0x150 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_ranges  0x000004a8       0x98 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_ranges  0x00000540       0xc8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_ranges  0x00000608      0x3d0 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
- .debug_ranges  0x000009d8      0x170 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
- .debug_ranges  0x00000b48      0x230 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.debug_ranges   0x00000000      0xd90
+ .debug_ranges  0x00000000       0x50 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x00000050       0x38 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_ranges  0x00000088       0x50 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_ranges  0x000000d8       0x18 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_ranges  0x000000f0       0x20 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_ranges  0x00000110      0x120 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_ranges  0x00000230       0xf8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_ranges  0x00000328       0x48 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_ranges  0x00000370      0x150 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_ranges  0x000004c0       0x98 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_ranges  0x00000558       0xc8 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_ranges  0x00000620      0x3d0 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+ .debug_ranges  0x000009f0      0x170 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+ .debug_ranges  0x00000b60      0x230 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
-.debug_line     0x00000000    0x11d5c
- .debug_line    0x00000000      0x67e CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000067e      0x467 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x00000ae5      0x1f1 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x00000cd6      0x2bd CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_line    0x00000f93       0xc2 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
- .debug_line    0x00001055      0x763 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_line    0x000017b8      0x83d CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x00001ff5      0x759 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_line    0x0000274e      0xba6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_line    0x000032f4      0xf83 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_line    0x00004277     0x15b6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_line    0x0000582d     0x52ac CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
- .debug_line    0x0000aad9     0x1ffb CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
- .debug_line    0x0000cad4     0x5288 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+.debug_line     0x00000000    0x11db9
+ .debug_line    0x00000000      0x6db CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000006db      0x467 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x00000b42      0x1f1 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x00000d33      0x2bd CMakeFiles/03_PWM_LED.elf.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_line    0x00000ff0       0xc2 CMakeFiles/03_PWM_LED.elf.dir/Core/Startup/startup_stm32l476rgtx.s.obj
+ .debug_line    0x000010b2      0x763 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_line    0x00001815      0x83d CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_line    0x00002052      0x759 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_line    0x000027ab      0xba6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00003351      0xf83 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_line    0x000042d4     0x15b6 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000588a     0x52ac CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim.c.obj
+ .debug_line    0x0000ab36     0x1ffb CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_tim_ex.c.obj
+ .debug_line    0x0000cb31     0x5288 CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
 
 .debug_str      0x00000000     0x4c70
  .debug_str     0x00000000      0xe90 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj
