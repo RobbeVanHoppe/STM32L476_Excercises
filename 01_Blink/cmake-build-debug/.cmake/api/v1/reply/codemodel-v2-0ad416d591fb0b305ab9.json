@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.26"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Blink.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Blink.elf-Debug-5351ac9eaf376ef72538.json",
+					"jsonFile" : "target-Blink.elf-Debug-49252466cb92171d01b4.json",
 					"name" : "Blink.elf",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/robbevh/CLionProjects/STM32/Blink/cmake-build-debug",
-		"source" : "/home/robbevh/CLionProjects/STM32/Blink"
+		"build" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/cmake-build-debug",
+		"source" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink"
 	},
 	"version" : 
 	{

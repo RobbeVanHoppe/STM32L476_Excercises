@@ -151,23 +151,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Core/Inc"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/STM32L4xx_HAL_Driver/Inc"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/STM32L4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/CMSIS/Include"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -276,23 +276,23 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Core/Inc"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/STM32L4xx_HAL_Driver/Inc"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/STM32L4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/STM32L4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/CMSIS/Device/ST/STM32L4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/robbevh/CLionProjects/STM32/Blink/Drivers/CMSIS/Include"
+					"path" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -317,7 +317,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=/home/robbevh/CLionProjects/STM32/Blink/cmake-build-debug/Blink.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/cmake-build-debug/Blink.map",
 				"role" : "flags"
 			},
 			{
@@ -342,7 +342,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/home/robbevh/CLionProjects/STM32/Blink/STM32L476RGTX_FLASH.ld",
+				"fragment" : "C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/STM32L476RGTX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

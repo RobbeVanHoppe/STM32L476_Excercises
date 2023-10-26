@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/robbevh/CLionProjects/STM32/Blink/Core/Startup/startup_stm32l476rgtx.s
+C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/Core/Startup/startup_stm32l476rgtx.s
 
