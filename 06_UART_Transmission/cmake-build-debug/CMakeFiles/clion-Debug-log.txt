@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\robbe\CLionProjects\STM32L476_Excercises\06_UART_Transmission Select CMakeLists.txt
