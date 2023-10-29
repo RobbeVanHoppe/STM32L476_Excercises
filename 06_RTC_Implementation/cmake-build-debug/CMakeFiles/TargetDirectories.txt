@@ -1,0 +1,3 @@
+C:/Users/robbe/CLionProjects/STM32L476_Excercises/06_RTC_Implementation/cmake-build-debug/CMakeFiles/06_RTC_Implementation.elf.dir
+C:/Users/robbe/CLionProjects/STM32L476_Excercises/06_RTC_Implementation/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/robbe/CLionProjects/STM32L476_Excercises/06_RTC_Implementation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

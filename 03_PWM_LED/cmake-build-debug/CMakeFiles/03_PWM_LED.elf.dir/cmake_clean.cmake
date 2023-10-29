@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "03_PWM_LED.elf"
+  "03_PWM_LED.elf.manifest"
   "03_PWM_LED.elf.pdb"
   "CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj.d"

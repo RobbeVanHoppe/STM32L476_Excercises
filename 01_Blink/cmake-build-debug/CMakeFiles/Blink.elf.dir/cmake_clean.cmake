@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "Blink.elf"
+  "Blink.elf.manifest"
   "Blink.elf.pdb"
   "CMakeFiles/Blink.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/Blink.elf.dir/Core/Src/main.c.obj.d"
