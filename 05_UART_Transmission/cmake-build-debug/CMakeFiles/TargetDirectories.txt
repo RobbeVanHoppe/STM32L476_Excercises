@@ -1,0 +1,3 @@
+/home/robbe/CLionProjects/STM32L476_Excercises/05_UART_Transmission/cmake-build-debug/CMakeFiles/05_UART_Transmission.elf.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/05_UART_Transmission/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/05_UART_Transmission/cmake-build-debug/CMakeFiles/rebuild_cache.dir

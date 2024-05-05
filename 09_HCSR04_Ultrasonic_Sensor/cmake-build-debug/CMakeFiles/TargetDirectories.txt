@@ -1,0 +1,3 @@
+/home/robbe/CLionProjects/STM32L476_Excercises/09_HCSR04_Ultrasonic_Sensor/cmake-build-debug/CMakeFiles/09_HCSR04_Ultrasonic_Sensor.elf.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/09_HCSR04_Ultrasonic_Sensor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/09_HCSR04_Ultrasonic_Sensor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

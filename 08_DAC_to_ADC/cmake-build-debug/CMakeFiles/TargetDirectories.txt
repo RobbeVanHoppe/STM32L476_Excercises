@@ -1,0 +1,3 @@
+/home/robbe/CLionProjects/STM32L476_Excercises/08_DAC_to_ADC/cmake-build-debug/CMakeFiles/08_DAC_to_ADC.elf.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/08_DAC_to_ADC/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/08_DAC_to_ADC/cmake-build-debug/CMakeFiles/rebuild_cache.dir

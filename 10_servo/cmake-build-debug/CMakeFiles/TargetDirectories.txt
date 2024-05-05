@@ -1,0 +1,3 @@
+/home/robbe/CLionProjects/STM32L476_Excercises/10_servo/cmake-build-debug/CMakeFiles/10_servo.elf.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/10_servo/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/robbe/CLionProjects/STM32L476_Excercises/10_servo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
