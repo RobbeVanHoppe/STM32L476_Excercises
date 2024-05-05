@@ -1,3 +1,0 @@
-C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/cmake-build-debug/CMakeFiles/Blink.elf.dir
-C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/robbe/CLionProjects/STM32L476_Excercises/01_Blink/cmake-build-debug/CMakeFiles/rebuild_cache.dir

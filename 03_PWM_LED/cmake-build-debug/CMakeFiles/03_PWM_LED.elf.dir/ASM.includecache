@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/robbe/CLionProjects/STM32L476_Excercises/03_PWM_LED/Core/Startup/startup_stm32l476rgtx.s
+/home/robbe/CLionProjects/STM32L476_Excercises/03_PWM_LED/Core/Startup/startup_stm32l476rgtx.s
 

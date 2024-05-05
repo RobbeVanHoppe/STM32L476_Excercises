@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/06_UART_Transmission.iml" filepath="$PROJECT_DIR$/.idea/06_UART_Transmission.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/05_UART_Transmission.iml" filepath="$PROJECT_DIR$/.idea/05_UART_Transmission.iml" />
     </modules>
   </component>
 </project>

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "03_PWM_LED.elf"
-  "03_PWM_LED.elf.manifest"
   "03_PWM_LED.elf.pdb"
   "CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/03_PWM_LED.elf.dir/Core/Src/main.c.obj.d"
@@ -33,6 +32,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash_ramfunc.c.obj.d"
   "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj"
   "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj.d"
+  "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj"
+  "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c.c.obj.d"
+  "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj"
+  "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_i2c_ex.c.obj.d"
   "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj"
   "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c.obj.d"
   "CMakeFiles/03_PWM_LED.elf.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj"

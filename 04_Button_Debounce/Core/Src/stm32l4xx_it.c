@@ -6,7 +6,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2023 STMicroelectronics.
+  * Copyright (c) 2024 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -41,9 +41,9 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
-volatile uint8_t buttonState = GPIO_PIN_SET;
-volatile uint16_t debounceCounter = 0;
-const uint16_t debounceThreshold = 20000;
+uint8_t buttonPressed = 0;
+uint8_t previousButtonState = 0;
+uint16_t debounceCounter = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -74,7 +74,7 @@ void NMI_Handler(void)
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
-  while (1)
+   while (1)
   {
   }
   /* USER CODE END NonMaskableInt_IRQn 1 */
@@ -209,22 +209,18 @@ void TIM1_UP_TIM16_IRQHandler(void)
   /* USER CODE END TIM1_UP_TIM16_IRQn 0 */
   HAL_TIM_IRQHandler(&htim16);
   /* USER CODE BEGIN TIM1_UP_TIM16_IRQn 1 */
+  buttonPressed = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
 
-  // Read Button state
-  uint8_t currentButtonState = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
-
-  // State has changed, reset debounceCounter
-  if (currentButtonState != buttonState) {
+  if (previousButtonState != buttonPressed) {
     debounceCounter = 0;
-    buttonState = currentButtonState;
+    previousButtonState = buttonPressed;
   } else {
     // Button state is stable
     debounceCounter++;
-    if (debounceCounter >= debounceThreshold) {
+    if (debounceCounter >= 10000) {
       //Button state has been stable for x amount of cycles
-      if (buttonState == GPIO_PIN_RESET) {
+      if (buttonPressed == RESET)
         HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-      }
       // Reset the counter for the next press
       debounceCounter = 0;
     }

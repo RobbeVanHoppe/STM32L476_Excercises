@@ -6,7 +6,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2023 STMicroelectronics.
+  * Copyright (c) 2024 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -17,9 +17,9 @@
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
-#include <stdio.h>
 #include "main.h"
-#include "stm32l4xx_it.h"
+
+#include <stdio.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -35,6 +35,7 @@
 /* USER CODE BEGIN PD */
 char uart_buf[50];
 int uart_buf_length;
+uint8_t buttonState = 0;
 
 /* USER CODE END PD */
 
@@ -69,8 +70,8 @@ static void MX_USART2_UART_Init(void);
   */
 int main(void)
 {
-  /* USER CODE BEGIN 1 */
 
+  /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
 
@@ -95,22 +96,22 @@ int main(void)
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   uart_buf_length = sprintf(uart_buf, "Test \r\n");
-  HAL_UART_Transmit(&huart2, (uint8_t*) uart_buf, uart_buf_length, 100);
+  HAL_UART_Transmit(&huart2, uart_buf, uart_buf_length, 100);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    if (buttonIsPressed == 1) {
+    if (buttonState == SET) {
       uart_buf_length = sprintf(uart_buf, "Button pressed!\r\n");
       HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_SET);
 
-      HAL_UART_Transmit(&huart2, (uint8_t*) uart_buf, uart_buf_length, 100);
+      HAL_UART_Transmit(&huart2, uart_buf, uart_buf_length, 100);
       HAL_Delay(200);
       HAL_GPIO_WritePin(LD2_GPIO_Port, LD2_Pin, GPIO_PIN_RESET);
 
-      buttonIsPressed = 0;
+      buttonState = RESET;
 
     }
 

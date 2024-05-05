@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/robbe/CLionProjects/STM32L476_Excercises/05_Button_Debounce
+# Install script for directory: /home/robbe/CLionProjects/STM32L476_Excercises/04_Button_Debounce
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/05_Button_Debounce")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/robbe/CLionProjects/STM32L476_Excercises/05_Button_Debounce/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robbe/CLionProjects/STM32L476_Excercises/04_Button_Debounce/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

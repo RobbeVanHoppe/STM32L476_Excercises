@@ -1,20 +1,12 @@
 CMakeFiles/03_PWM_LED.elf.dir/Core/Src/sysmem.c.obj: \
- C:\Users\robbe\CLionProjects\STM32L476_Excercises\03_PWM_LED\Core\Src\sysmem.c \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\errno.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\errno.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\reent.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\newlib.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_newlib_version.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\config.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\ieeefp.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\features.h \
- c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_types.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\_types.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\machine\_default_types.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\lock.h \
- c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h
+ /home/robbe/CLionProjects/STM32L476_Excercises/03_PWM_LED/Core/Src/sysmem.c \
+ /usr/include/newlib/errno.h /usr/include/newlib/sys/errno.h \
+ /usr/include/newlib/sys/reent.h /usr/include/newlib/_ansi.h \
+ /usr/include/newlib/newlib.h /usr/include/newlib/_newlib_version.h \
+ /usr/include/newlib/sys/config.h /usr/include/newlib/machine/ieeefp.h \
+ /usr/include/newlib/sys/features.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+ /usr/include/newlib/sys/_types.h /usr/include/newlib/machine/_types.h \
+ /usr/include/newlib/machine/_default_types.h \
+ /usr/include/newlib/sys/lock.h \
+ /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h

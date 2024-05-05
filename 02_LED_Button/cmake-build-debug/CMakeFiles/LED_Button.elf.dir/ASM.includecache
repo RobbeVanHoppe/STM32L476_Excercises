@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/robbevh/CLionProjects/STM32/02_LED_Button/Core/Startup/startup_stm32l476rgtx.s
+/home/robbe/CLionProjects/STM32L476_Excercises/02_LED_Button/Core/Startup/startup_stm32l476rgtx.s
 

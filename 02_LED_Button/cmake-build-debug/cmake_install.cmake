@@ -1,4 +1,4 @@
-# Install script for directory: /home/robbevh/CLionProjects/STM32/02_LED_Button
+# Install script for directory: /home/robbe/CLionProjects/STM32L476_Excercises/02_LED_Button
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/robbevh/CLionProjects/STM32/02_LED_Button/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/robbe/CLionProjects/STM32L476_Excercises/02_LED_Button/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

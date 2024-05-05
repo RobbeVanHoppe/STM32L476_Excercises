@@ -6,7 +6,7 @@
   ******************************************************************************
   * @attention
   *
-  * Copyright (c) 2023 STMicroelectronics.
+  * Copyright (c) 2024 STMicroelectronics.
   * All rights reserved.
   *
   * This software is licensed under terms that can be found in the LICENSE file
@@ -31,7 +31,7 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+GPIO_PinState currentPinState = 0;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -57,7 +57,7 @@
 /* External variables --------------------------------------------------------*/
 
 /* USER CODE BEGIN EV */
-uint8_t buttonIsPressed = 0;
+
 /* USER CODE END EV */
 
 /******************************************************************************/
@@ -72,7 +72,7 @@ void NMI_Handler(void)
 
   /* USER CODE END NonMaskableInt_IRQn 0 */
   /* USER CODE BEGIN NonMaskableInt_IRQn 1 */
-  while (1)
+   while (1)
   {
   }
   /* USER CODE END NonMaskableInt_IRQn 1 */
@@ -204,18 +204,14 @@ void SysTick_Handler(void)
 void EXTI15_10_IRQHandler(void)
 {
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
-
   /* USER CODE END EXTI15_10_IRQn 0 */
   HAL_GPIO_EXTI_IRQHandler(B1_Pin);
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
-
-  GPIO_PinState currentPinState = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
-  buttonIsPressed = (uint8_t )(currentPinState == GPIO_PIN_RESET);
+  currentPinState = HAL_GPIO_ReadPin(B1_GPIO_Port, B1_Pin);
+  buttonState = (uint8_t )(currentPinState == GPIO_PIN_RESET);
 
 
   __HAL_GPIO_EXTI_CLEAR_IT(B1_Pin);
-
-
   /* USER CODE END EXTI15_10_IRQn 1 */
 }
 
