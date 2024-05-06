@@ -2,7 +2,7 @@
 // Created by robbe on 3/05/24.
 //
 #pragma once
-#include "stm32l4xx_hal_tim.h"
+#include "stm32l4xx.h"
 
 
 class PIDController {

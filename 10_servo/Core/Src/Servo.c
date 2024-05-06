@@ -2,7 +2,7 @@
 // Created by robbe on 5/05/24.
 //
 
-#include "Servo.h"
+#include "servo.h"
 #include <stdlib.h>
 #include <math.h>
 

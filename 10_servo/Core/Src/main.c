@@ -19,7 +19,8 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 
-#include "Servo.h"
+#include "servo.h"
+#include "PIDController.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -98,6 +99,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
   HAL_TIM_Base_Start(&htim2);
   HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);
+  uint16_t position;
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -105,9 +107,13 @@ int main(void)
   while (1)
   {
     Servo_moveToPosition(&htim2, TIM_CHANNEL_1,0);
+    position = PID_getServoPosition(&htim2, TIM_CHANNEL_1);
+    Servo_moveToPosition(&htim2, TIM_CHANNEL_1, position);
     HAL_Delay(1000);
     Servo_moveToPosition(&htim2, TIM_CHANNEL_1,180);
     HAL_Delay(1000);
+    position = PID_getServoPosition(&htim2, TIM_CHANNEL_1);
+    Servo_moveToPosition(&htim2, TIM_CHANNEL_1, position);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
