@@ -2,5 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test/agent_ws/src/micro_ros_setup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test/agent_ws/src/uros/drive_base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test/agent_ws/src/uros/micro-ROS-Agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test/agent_ws/src/uros/micro_ros_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test/l476_microros/micro_ros_stm32cubemx_utils" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test_backup/agent_ws/src/micro_ros_setup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test_backup/agent_ws/src/uros/drive_base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test_backup/agent_ws/src/uros/micro-ROS-Agent" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test_backup/agent_ws/src/uros/micro_ros_msgs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../micro-ROS_test_backup/l476_microros/micro_ros_stm32cubemx_utils" vcs="Git" />
   </component>
 </project>

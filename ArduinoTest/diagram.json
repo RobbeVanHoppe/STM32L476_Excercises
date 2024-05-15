@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "author": "Robbe van Hoppe",
+  "editor": "CLion",
+  "parts": [
+    {
+      "id": "nano",
+      "type": "wokwi-arduino-nano",
+      "left": 100,
+      "top": 50,
+      "attrs": {
+        "color": "red"
+      }
+    }
+  ],
+  "connections": []
+}

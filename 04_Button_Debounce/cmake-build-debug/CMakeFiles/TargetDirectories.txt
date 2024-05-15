@@ -1,3 +1,0 @@
-/home/robbe/CLionProjects/STM32L476_Excercises/04_Button_Debounce/cmake-build-debug/CMakeFiles/04_Button_Debounce.elf.dir
-/home/robbe/CLionProjects/STM32L476_Excercises/04_Button_Debounce/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/robbe/CLionProjects/STM32L476_Excercises/04_Button_Debounce/cmake-build-debug/CMakeFiles/rebuild_cache.dir

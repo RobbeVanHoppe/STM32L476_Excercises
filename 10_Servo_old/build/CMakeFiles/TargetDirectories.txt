@@ -1,3 +1,0 @@
-/home/robbe/CLionProjects/STM32L476_Excercises/10_Servo_old/build/CMakeFiles/10_Servo.elf.dir
-/home/robbe/CLionProjects/STM32L476_Excercises/10_Servo_old/build/CMakeFiles/edit_cache.dir
-/home/robbe/CLionProjects/STM32L476_Excercises/10_Servo_old/build/CMakeFiles/rebuild_cache.dir
